@@ -9,6 +9,8 @@
     
 }
 
+
+
 /*геометрия*/
 
 h1,
@@ -26,16 +28,21 @@ ul {
     padding: 0;
 }
 
-*{
+* {
     padding: 0;
-    margin: 0;;
+    margin: 0;
     box-sizing: border-box;
     list-style: none;
+
 }
+
+
+
 
 body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--white);
+    border-color: #2196F3;
     
 }
 
@@ -46,21 +53,20 @@ body{
     box-sizing: border-box;
     padding-left: 15px;
     padding-right: 15px;
- 
     margin: 0 auto;
 }
 
 .header_container{
 display: flex;
-justify-self: center;
-padding-bottom: 25px;
-padding-top: 24px;
+align-items: center;
+margin-top: 24px;
+margin-bottom: 25px;
 
 
 }
 
 .header{
-    padding-top: 24px;
+        padding-top: 24px;
     display: flex;
 
 }
@@ -74,11 +80,14 @@ padding-top: 24px;
     text-decoration: none;
 
     /*геометрия*/
-    display: flex;
+    display: inline;
     margin-left:15px;
     width: 145px;
     height: 31px;
     padding-bottom: 25px;
+    margin-right: 93px;
+   
+
 }
 
 .web{
@@ -95,6 +104,7 @@ padding-top: 24px;
     /*геометрия*/
     display:flex;
     width: 281px;
+    gap: 50px;
 }
 
 
@@ -111,7 +121,7 @@ padding-top: 24px;
     /*геометрия*/
    
    margin-top: 32px;
-   margin-left: 50px;
+   
 }
 
 
@@ -162,12 +172,21 @@ padding-top: 24px;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--gray);
+
+    /*геометрия*/
+    margin-left: 50px;
+    margin-right: 15px;
 }
 
 .header_link_tel:hover,
 .header_link_tel:focus {
     color:  var(--brand-color);
 }
+
+.first-page{
+text-align: center;
+}
+
 
 .first-page-button{
     font-family: inherit;
@@ -183,31 +202,23 @@ padding-top: 24px;
     cursor: pointer;
 
     /*геометрия*/
-  
-    display: block;
-    align-items: center;
-    text-align: center;
-    padding: 10px 35px;
-    padding-top: 30;
-    
+ display: inline;
+ margin-bottom: 200px;
+ align-items: center;
+ min-width: 216px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-right: 32px;
+ padding-left: 32px;
+ margin-top: 30px;
+
+
+
 }
 
 
 ul{
     list-style: none;
-}
-
-.hide{
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
 }
 
 .first_page_title{
@@ -225,8 +236,6 @@ ul{
     margin-bottom: 30px;
     padding-right: 298px;
     padding-left: 298px;
-    
-    
 }
 
 .first-page{
@@ -248,6 +257,7 @@ ul{
     line-height: 1.2114;
     letter-spacing: 0.03em;
     color: var(--gray);
+    min-width: 270px;
 
  }
 
@@ -260,8 +270,24 @@ ul{
     
  }
 
+
+ .hide {
+     position: absolute;
+     white-space: nowrap;
+     width: 1px;
+     height: 1px;
+     overflow: hidden;
+     border: 0;
+     padding: 0;
+     clip: rect(0 0 0 0);
+     clip-path: inset(50%);
+     margin: -1px;
+ }
+
  .second_list{
-    padding-left: 30px;
+    gap: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
  }
 
  .second_page_list {
@@ -309,6 +335,19 @@ ul{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--black_1);
+
+    /*геометрия*/
+    margin-top: 188px;
+    margin-bottom: 50px;
+   
+ }
+
+ .our_team_list {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom:  94px;
+
  }
  
  .our_team_people{
@@ -319,6 +358,10 @@ ul{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--black_1);
+
+    /*геометрия*/
+    margin-top: 30px;
+    margin-bottom: 10px;
  }
 
  .our_team_job{
@@ -329,16 +372,38 @@ ul{
     color: var(--gray);
  }
 
+             /*footer*/
+
  .footer{
    background-color: var(--black_gray);
+
+   /*геометрия*/
+}
+
+
+.footer_container{
+    display: flex;
+}
+.footer_logo{
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 15px;
+
 }
 
 .footer_studio{
     color: var(--white);
 }
 
-.footer_list{
+.footer_ul{
     list-style: none;
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+
+.footer_list{
+    padding-bottom: 9px;
+    margin-left: 15px;
 }
 
 .footer_address{
@@ -389,6 +454,18 @@ ul{
  
     /*portfolio*/
 
+.buttom_list{
+
+    /*геометрия*/
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 34px;
+    margin-top: 94px;
+    
+
+}
+
 .menu_button{
     font-weight: 500;
     font-size: 16px;
@@ -398,7 +475,15 @@ ul{
     letter-spacing: 0.03em;
     border: none;
     background-color: var(--gray_1);
+
+    /*геометрия*/
+    margin-left: 8px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
+
 
  .menu_button:focus,
  .menu_button:hover{
@@ -418,6 +503,19 @@ ul{
     background-color: var(--white);
 }
 
+.pic_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 94px;
+
+   
+}
+
+.pic_item{
+   /* width: calc((100%-60px) /3 );*/
+}   
+
 .section_description{
  
     font-size: 18px;
@@ -429,6 +527,7 @@ ul{
 a {
     text-decoration: none;
 }
+
 
 
 .section_text{ 
