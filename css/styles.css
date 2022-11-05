@@ -59,8 +59,8 @@ body{
 .header_container{
 display: flex;
 align-items: center;
-margin-top: 24px;
-margin-bottom: 25px;
+padding-top: 24px;
+padding-bottom: 25px;
 
 
 }
@@ -124,10 +124,6 @@ margin-bottom: 25px;
    
 }
 
-
-
-
-
  .header_nav_link:hover,
  .header_nav_link:focus {
     color: var(--brand-color);
@@ -145,7 +141,7 @@ margin-bottom: 25px;
 }
 
 .header_link_mail {
-   display: flex;
+    display: flex;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
@@ -154,8 +150,8 @@ margin-bottom: 25px;
     text-decoration: none;
 
     /*геометрия*/
-    padding-right: 50px;
-    padding-left: 15px;
+   
+    
     
 }
 .header_link_mail:hover,
@@ -174,8 +170,8 @@ margin-bottom: 25px;
     color: var(--gray);
 
     /*геометрия*/
-    margin-left: 50px;
-    margin-right: 15px;
+  margin-right: 15px;
+  margin-left: 50px;
 }
 
 .header_link_tel:hover,
@@ -183,8 +179,11 @@ margin-bottom: 25px;
     color:  var(--brand-color);
 }
 
+
+
 .first-page{
 text-align: center;
+display: flex;
 }
 
 
@@ -236,6 +235,7 @@ ul{
     margin-bottom: 30px;
     padding-right: 298px;
     padding-left: 298px;
+    min-width: 696px;
 }
 
 .first-page{
@@ -243,7 +243,7 @@ ul{
 }
 
 
-/*вторая страница*/
+             /*вторая страница*/
 
 
 
@@ -265,8 +265,8 @@ ul{
     display: flex;
     margin-right: 15px;
     margin-left: 15px;
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     
  }
 
@@ -311,8 +311,7 @@ ul{
 
 
         /*геометрия*/
-        margin-top: 94px;
-        margin-bottom: 50px;
+        padding-bottom: 50px;
         display: block;
         align-items: center;
         text-align: center;
@@ -337,7 +336,7 @@ ul{
     color: var(--black_1);
 
     /*геометрия*/
-    margin-top: 188px;
+    padding-top: 188px;
     margin-bottom: 50px;
    
  }
@@ -346,7 +345,8 @@ ul{
     display: flex;
     gap: 30px;
     margin-top: 30px;
-    margin-bottom:  94px;
+    padding-bottom: 94px;
+  
 
  }
  
@@ -360,7 +360,7 @@ ul{
     color: var(--black_1);
 
     /*геометрия*/
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 10px;
  }
 
@@ -527,7 +527,6 @@ ul{
 a {
     text-decoration: none;
 }
-
 
 
 .section_text{ 
