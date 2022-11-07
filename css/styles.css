@@ -59,7 +59,6 @@ body{
 .header_container{
 display: flex;
 align-items: center;
-/*padding-top: 24px;*/
 padding-bottom: 25px;
 
 
@@ -304,13 +303,13 @@ ul{
 
 
      /*геометрия*/
-     margin-bottom: 30px;
+     margin-bottom: 10px;
 
  }
 
 .our-work{
-    padding-bottom: 94px;
-    padding-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
  .work-title{
