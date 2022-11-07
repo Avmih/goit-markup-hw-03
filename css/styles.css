@@ -263,8 +263,6 @@ ul{
 
  .about-title{
     display: flex;
-    margin-right: 15px;
-    margin-left: 15px;
     padding-top: 94px;
     padding-bottom: 94px;
     
@@ -503,18 +501,25 @@ ul{
     background-color: var(--white);
 }
 
+
+
 .pic_list{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 94px;
-
-   
 }
 
 .pic_item{
-   /* width: calc((100%-60px) /3 );*/
-}   
+    width: calc ((100%-60px) / 3);
+}
+
+ 
+
+.border_pic{
+    border: 1px solid var(--gray_1);
+    margin-top: 0;
+}
 
 .section_description{
  
@@ -535,7 +540,7 @@ a {
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: var(--gray);
-   }
+}
 
  
    
