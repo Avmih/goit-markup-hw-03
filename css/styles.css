@@ -60,13 +60,13 @@ body{
 .header_container{
 display: flex;
 align-items: center;
-padding-bottom: 25px;
 
 
 }
 
 .header{
-    padding-top: 24px;
+   padding-top: 24px;
+   padding-bottom: 24px;
     display: flex;
     border-bottom: 1px solid var(--gray_1);
     
@@ -82,11 +82,10 @@ padding-bottom: 25px;
     text-decoration: none;
 
     /*геометрия*/
-    display: inline;
+    display: inline-block;
     margin-left:15px;
     width: 145px;
     height: 31px;
-    padding-bottom: 25px;
     margin-right: 93px;
    
 
@@ -122,8 +121,9 @@ padding-bottom: 25px;
 
     /*геометрия*/
    
-   margin-top: 32px;
-   
+   /*margin-top: 32px;*/
+   /*padding-top: 32px;
+   padding-bottom: 32px;*/
 }
 
  .header_nav_link:hover,
@@ -186,8 +186,30 @@ padding-bottom: 25px;
 .first-page{
 text-align: center;
 display: flex;
+padding-bottom: 200px;
+padding-top: 200px;
 }
 
+
+
+.first_page_title {
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3636;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+
+    /*геометрия*/
+    display: block;
+
+    min-width: 696px;
+    margin-bottom: 30px;
+
+
+    
+}
 
 .first-page-button{
     font-family: inherit;
@@ -204,14 +226,11 @@ display: flex;
 
     /*геометрия*/
  display: inline;
- margin-bottom: 200px;
  align-items: center;
  min-width: 216px;
  padding-top: 10px;
  padding-bottom: 10px;
- padding-right: 32px;
- padding-left: 32px;
- margin-top: 30px;
+
 
 
 
@@ -222,22 +241,6 @@ ul{
     list-style: none;
 }
 
-.first_page_title{
-  
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.3636;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--white);
-
-    /*геометрия*/
-    padding-top: 200px; 
-    margin-bottom: 30px;
-    min-width: 696px;
-    text-align: center;
-}
 
 .first-page{
     background: #2F303A;
@@ -264,10 +267,14 @@ ul{
     color: var(--gray);
     min-width: 270px;
 
+    /*геометрия*/
+    margin-top: 10px;
+
  }
 
  .about-title{
     display: flex;
+    
  
  }
 
@@ -321,7 +328,7 @@ ul{
 
 
         /*геометрия*/
-        padding-bottom: 50px;
+        margin-bottom: 50px;
         display: block;
         align-items: center;
         text-align: center;
@@ -336,9 +343,11 @@ ul{
     width: calc((100%-60px)/3);
  }
 
- .our_team{
+ .our-team{
     padding-bottom: 94px;
     padding-top: 94px;
+    background-color: var(--gray_1);
+
  }
  
  .our_team_title{
@@ -348,22 +357,32 @@ ul{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--black_1);
+    margin-bottom: 50px;
+
 
 
  }
 
  .our_team_foto{
     width: calc((100%-90px)/3);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    
  }
 
  .our_team_list {
     display: flex;
     gap: 30px;
     margin-top: 30px;
-    padding-bottom: 94px;
-  
 
- }
+  
+}
+
+.team_text{
+    background-color: var(--white);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
  
  .our_team_people{
     
@@ -375,7 +394,7 @@ ul{
     color: var(--black_1);
 
     /*геометрия*/
-    margin-top: 50px;
+    /*margin-top: 30px;*/
     margin-bottom: 10px;
  }
 
