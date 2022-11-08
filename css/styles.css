@@ -36,6 +36,10 @@ ul {
 
 }
 
+img{
+    display: block;
+}
+
 
 
 
@@ -340,7 +344,7 @@ ul{
  }
 
  .work-foto{
-    width: calc((100%-60px)/3);
+    width:calc((100% - 60px)/3);
  }
 
  .our-team{
@@ -364,24 +368,27 @@ ul{
  }
 
  .our_team_foto{
-    width: calc((100%-90px)/3);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+    width:calc((100% - 90px)/3);
+   
     
  }
 
  .our_team_list {
     display: flex;
     gap: 30px;
-    margin-top: 30px;
+    
 
+    
+    
   
 }
 
 .team_text{
-    background-color: var(--white);
-    padding-bottom: 30px;
-    padding-top: 30px;
+ background-color: var(--white);
+ padding-top: 30px;
+ padding-bottom: 30px;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
  
  .our_team_people{
@@ -394,7 +401,7 @@ ul{
     color: var(--black_1);
 
     /*геометрия*/
-    /*margin-top: 30px;*/
+   
     margin-bottom: 10px;
  }
 
@@ -410,6 +417,8 @@ ul{
 
  .footer{
    background-color: var(--black_gray);
+   padding-top: 60px;
+   padding-bottom: 60px;
 
    /*геометрия*/
 }
@@ -420,8 +429,10 @@ ul{
 }
 .footer_logo{
     display: inline-block;
-    margin-top: 60px;
-    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-left: 0;
+
+   
 
 }
 
@@ -431,13 +442,10 @@ ul{
 
 .footer_ul{
     list-style: none;
-    margin-top: 30px;
-    padding-bottom: 60px;
 }
 
 .footer_list{
-    padding-bottom: 9px;
-    margin-left: 15px;
+margin-bottom: 9px;
 }
 
 .footer_address{
@@ -547,14 +555,13 @@ ul{
 }
 
 .pic_item{
-    width: calc ((100%-60px) / 3);
+    width:calc((100% - 60px) / 3);
+    
 }
-
- 
 
 .border_pic{
     border: 1px solid var(--gray_1);
-    margin-top: 0;
+    padding: 20px 24px;
 }
 
 .section_description{
@@ -563,6 +570,7 @@ ul{
     line-height: 1.9444;
     letter-spacing: 0.06em;
     color: var(--black_1);
+margin-bottom: 4px;
 }
 
 a {
