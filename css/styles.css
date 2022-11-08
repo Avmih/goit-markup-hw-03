@@ -125,9 +125,6 @@ align-items: center;
 
     /*геометрия*/
    
-   /*margin-top: 32px;*/
-   /*padding-top: 32px;
-   padding-bottom: 32px;*/
 }
 
  .header_nav_link:hover,
@@ -215,7 +212,7 @@ padding-top: 200px;
     
 }
 
-.first-page-button{
+.first-page-button {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -229,14 +226,11 @@ padding-top: 200px;
     cursor: pointer;
 
     /*геометрия*/
- display: inline;
- align-items: center;
- min-width: 216px;
- padding-top: 10px;
- padding-bottom: 10px;
-
-
-
+    display: inline;
+    align-items: center;
+    min-width: 216px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
@@ -329,8 +323,8 @@ ul{
         font-weight: 700;
         font-size: 36px;
         line-height: 42px;
-
-
+    
+    
         /*геометрия*/
         margin-bottom: 50px;
         display: block;
