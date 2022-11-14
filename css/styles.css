@@ -262,7 +262,7 @@ ul {
 }
 .second_page_description {
   font-size: 14px;
-  line-height: 1.2114;
+  line-height: 1.7142;
   letter-spacing: 0.03em;
   color: var(--gray);
   min-width: 270px;
@@ -379,7 +379,7 @@ height: 70px;
 .com_soc_list {
   display: flex;
   justify-content: center;
-  margin: 16px;
+  margin-top: 16px;
   gap: 10px;
 }
 
